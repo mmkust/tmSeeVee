@@ -1,3 +1,8 @@
 {
-    "firstname": "Tvrtko"
+    "firstname": "Tvrtko",
+    "lastname": "Malkoč",
+    "dateofbirth": "1978-10-22T23:00:00.000Z",
+    "title": "Software Developer",
+    "jobtitle": "Programmer Analyst",
+    "company": "Croatian Lottery"
 }
