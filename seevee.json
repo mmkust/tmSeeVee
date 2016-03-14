@@ -9,6 +9,8 @@
         "mobile": "+385955618115",
         "email": "tvrtko.malkoc@gmail.com"
     },
+    "qualification": "dipl. ing.",
+    "qualificationalinstitution": "Faculty of Electrical Engineering and Computing",
     "languages": [
         {
             "name": "Croatian",
@@ -29,5 +31,8 @@
     ],
     "aboutme": [
         "Currently I am working as a .NET developer for the Croatian Lottery, mainly on betting projects. I have many years of experience with object oriented (C#, Java) and hybrid (C/C++) programming languages. True Linux lover. Fan of best practices and introduction of new stuff into the project. My favorite lecturer is Uncle Bob."
+    ],
+    "itskills": [
+        "Programming languages:\nC#, Java\nC++, C\nSQL\nFrameworks:\nGentle ORM, Autofac DI\nDatabases:\nOracle, Informix, MS SQL Server\nTools:\nVisual Studio 2015, Eclipse\nTFS, ClearCase\nOperating systems:\nUnix/Linux\nMS Windows"
     ]
 }
