@@ -8,5 +8,26 @@
     "contact": {
         "mobile": "+385955618115",
         "email": "tvrtko.malkoc@gmail.com"
-    }
+    },
+    "languages": [
+        {
+            "name": "Croatian",
+            "percentage": 100
+        },
+        {
+            "name": "English",
+            "percentage": 80
+        },
+        {
+            "name": "German",
+            "percentage": 30
+        },
+        {
+            "name": "Spanish",
+            "percentage": 15
+        }
+    ],
+    "aboutme": [
+        "Currently I am working as a .NET developer for the Croatian Lottery, mainly on betting projects. I have many years of experience with object oriented (C#, Java) and hybrid (C/C++) programming languages. True Linux lover. Fan of best practices and introduction of new stuff into the project. My favorite lecturer is Uncle Bob."
+    ]
 }
