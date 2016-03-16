@@ -1,86 +1,158 @@
-<html>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex, nofollow">
-    <title>Tvrtko</title>
+<!DOCTYPE html>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400|Roboto+Slab" rel="stylesheet" type="text/css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://comsysto.github.io/seevee-static/private-templates/seevee/1/css/basic.css">
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Tvrtko Malkoč</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400|Roboto+Slab" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://comsysto.github.io/seevee-static/private-templates/seevee/2/css/basic.css" />
     <!--[if lt IE 9]>
 	    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+</head>
+<body>
 
 <header>
     <div class="container">
         <div class="row">
             <div class="col-sm-9">
 				<span class="avatar">
-					<img alt="Tvrtko" src="https://raw.githubusercontent.com/mmkust/tmSeeVee/seevee-staging/seevee.jpg">
+					<img alt="Tvrtko Malkoč" src="https://raw.githubusercontent.com/mmkust/tmSeeVee/seevee-staging/seevee.jpg" />
 				</span> 
 				<span class="header-info"> 
-					<span class="name">Tvrtko</span> 
-					
-					
-					
+					<span class="name">Tvrtko Malkoč</span> 
+					<span class="jobtitle">Programmer Analyst</span>
+					<span class="qualification">dipl. ing.</span>
+					<span class="qualificationalinstitution">Faculty of Electrical Engineering and Computing</span>
 				</span>
             </div>
             <div class="col-sm-3 text-right header-logo">
                 <a href="https://github.com/seeveebot">
-                    <img src="https://comsysto.github.io/seevee-static/private-templates/seevee/1/img/logo.png" alt="SeeVee">
+                    <img src="https://comsysto.github.io/seevee-static/private-templates/seevee/2/img/logo.png" alt="SeeVee" />
                 </a>
             </div>
         </div>
     </div>
 </header>
 
-
+<body>
 
 <div class="container cv">
     <div class="row">
         <div class="col-md-6">
             <h3>
-                <i class="fa fa-phone"></i> Personal data
+                <i class="fa fa-phone"></i> <span>Personal data</span>
             </h3>
-            
+            <p>
+                <span class="key">Lastname</span>
+                <span>Malkoč</span>
+            </p>
             <p>
                 <span class="key">Firstname</span>
                 <span>Tvrtko</span>
             </p>
-         	
-            
+         	<p>
+                <span class="key">Date of Birth</span>
+				<span>Oct 22 1978</span>
+            </p>
+            <div>
+	            
+	            
+	            <p>
+	                <span class="key">Mobile</span>
+					<span>+385955618115</span>
+	            </p>
+	            <p>
+	                <span class="key">Mail</span>
+					<span>
+						<a href="mailto:tvrtko.malkoc@gmail.com">tvrtko.malkoc@gmail.com</a>
+					</span>
+	            </p>
+			</div>
 			
 
-			<div th:="${jason.aboutme} and not ${json.aboutme?.isEmpty()}">
+			<div th:="${json.aboutme} and not ${json.aboutme?.isEmpty()}">
 	            <h3>
-	                <i class="fa fa-user"></i> About me
+	                <i class="fa fa-user"></i> <span>About Me</span>
 	            </h3>
-	            
+	            <div>
+	                <p>Currently I am working as a .NET developer for the Croatian Lottery, mainly on betting projects. I have many years of experience with object oriented (C#, Java) and hybrid (C/C++) programming languages. True Linux lover. Fan of best practices and introduction of new stuff into the project. My favorite lecturer is Uncle Bob.</p>
+	            </div>
             </div>
 
 			
         </div>
 
         <div class="col-md-6">
-        	
+        	<div>
+	            <h3>
+	                <i class="fa fa-rocket"></i> <span>IT Skills</span>
+	            </h3>
+	            <div>
+	                <p>Programming languages:
+C#, Java
+C++, C
+SQL
+Frameworks:
+Gentle ORM, Autofac DI
+Databases:
+Oracle, Informix, MS SQL Server
+Tools:
+Visual Studio 2015, Eclipse
+TFS, ClearCase
+Operating systems:
+Unix/Linux
+MS Windows</p>
+	            </div>
+            </div>
 
             
 
 			
-            
+            <div>
+            	<h3>
+            		<i class="fa fa-language"></i> <span>Languages</span>
+            	</h3>
+            	<div>
+	                <p>
+	                    <span class="key seevee-percentage" data-percentage="100">100%</span>
+	                    <span>Croatian</span>
+	                </p>
+	            </div>
+            	<div>
+	                <p>
+	                    <span class="key seevee-percentage" data-percentage="80">80%</span>
+	                    <span>English</span>
+	                </p>
+	            </div>
+            	<div>
+	                <p>
+	                    <span class="key seevee-percentage" data-percentage="30">30%</span>
+	                    <span>German</span>
+	                </p>
+	            </div>
+            	<div>
+	                <p>
+	                    <span class="key seevee-percentage" data-percentage="15">15%</span>
+	                    <span>Spanish</span>
+	                </p>
+	            </div>
+            </div>
             
         </div>
     </div>
     
 </div>
-
+</body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://comsysto.github.io/seevee-static/private-templates/seevee/1/js/cv.js"></script>
-
-
+<script src="https://comsysto.github.io/seevee-static/private-templates/seevee/2/js/cv.js"></script>
+</body>
 </html>
